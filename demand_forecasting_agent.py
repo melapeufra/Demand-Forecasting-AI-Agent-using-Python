@@ -165,7 +165,7 @@ class DemandForecastingAgent:
 def _generate_demo_data() -> pd.DataFrame:
     rng = np.random.default_rng(42)
     periods = pd.date_range("2025-01-01", periods=12, freq="MS")
-    groups = ["Burnley - A330neo Assemblage", "Le Havre - A320neo Assemblage", "Toulouse - Nacelle Nac"]
+    groups = ["Famille", "Site", "UAP"]
 
     rows = []
     for group in groups:
